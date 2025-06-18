@@ -1,36 +1,48 @@
-###TO-DO-APP
+# 📝 Welcome to Todo's App
 
+This is a simple and efficient to-do application built with **Vue 3**. It allows you to manage your tasks easily, and your progress is saved automatically even after closing your browser.
 
-This template should help get you started developing with Vue 3 in Vite.
+---
 
-## Recommended IDE Setup
+## 🚀 How It Works
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- ✅ **Create:**  
+  Use the input field at the top to add a new task. Each task gets saved with a unique ID.
 
-## Customize configuration
+- 📌 **Check Complete:**  
+  Toggle the checkbox to mark a task as **completed** or **not completed**.
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- ✏️ **Edit:**  
+  Click the **pencil icon** to edit a task, then click the **check icon** to save changes.
 
-## Project Setup
+- 🗑️ **Delete:**  
+  Click the **trash icon** to remove a task from your list instantly.
 
-```sh
-npm install
-```
+- 💾 **Saved Todos:**  
+  Tasks are stored using `localStorage`, so your list remains even when you refresh or close the browser.
 
-### Compile and Hot-Reload for Development
+- 🎉 **Completion Message:**  
+  When **all** todos are completed, you’ll see a special congratulatory message appear.
 
-```sh
-npm run dev
-```
+---
 
-### Compile and Minify for Production
+## 💡 Why Use This App?
 
-```sh
-npm run build
-```
+This app helps you stay productive with:
+- Real-time updates (thanks to Vue 3's reactivity)
+- A minimalistic and responsive design
+- No sign-up or backend needed — works entirely on your browser
 
-### Lint with [ESLint](https://eslint.org/)
+---
 
-```sh
-npm run lint
-```
+## 📁 Tech Stack
+
+- Vue 3 Composition API
+- SCSS Styling
+- Iconify for UI icons
+- Local Storage for data persistence
+
+---
+
+### ✨ Stay organized. Stay consistent. Do something!
+
